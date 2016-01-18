@@ -1,0 +1,36 @@
+{
+  "name": "TreeGrammar",
+  "version": "0.0.1",
+  "description": "A simple context-free grammar text generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/betez/TreeGrammarc.git"
+  },
+  "keywords": [
+    "grammar",
+    "formal language",
+    "context-free",
+    "text",
+    "generation",
+    "random"
+  ],
+  "author": "Berto Yáñez <berto@ber.to>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betez/TreeGrammarc/issues"
+  },
+  "homepage": "https://github.com/betez/TreeGrammarc#readme",
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
