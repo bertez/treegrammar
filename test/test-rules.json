@@ -1,0 +1,16 @@
+{
+    "<start>": ["<template>"],
+    "<template>": [
+        "The <noun> <verb> <adj>.", "A <adj> <noun>."
+    ],
+    "<noun>": [
+        "house", "cat"
+    ],
+    "<adj>": [
+        "green", "big"
+    ],
+    "<verb>": [
+        "is",
+        "will be"
+    ]
+}
