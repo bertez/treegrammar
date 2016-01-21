@@ -44,16 +44,16 @@ Then create a new generator object with that set of rules or you can add the rul
 
 Method | Description |
 ---------|---------------|
-generate(startRule) | Generates a new random string. By default the text will be generated starting from the rule with the name *`<start>`* but you can also define your starting point using the optional parameter startRule.
-addRule(ruleName, ruleContent, overwrite) | Adds a new rule. The *`<ruleName>`* and `[ruleContent]` are required. If the rule exists it will throw an Error unless the optional overwrite param is set to *true*.
-deleteRule(ruleName) | Deletes the rule *`<ruleName>`*.
+`generate(startRule)` | Generates a new random string. By default the text will be generated starting from the rule with the name *`<start>`* but you can also define your starting point using the optional parameter startRule.
+`addRule(ruleName, ruleContent, overwrite)` | Adds a new rule. The *`<ruleName>`* and `[ruleContent]` are required. If the rule exists it will throw an Error unless the optional overwrite param is set to *true*.
+`deleteRule(ruleName)` | Deletes the rule *`<ruleName>`*.
 
 # Building
 
 
-* ```git clone https://github.com/bertez/treegrammar```
-* ```npm install```
-* ```gulp```
+* `git clone https://github.com/bertez/treegrammar`
+* `npm install`
+* `gulp`
 
 This will lint the code and run the tests.
 
