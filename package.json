@@ -1,5 +1,5 @@
 {
-  "name": "TreeGrammar",
+  "name": "treegrammar",
   "version": "1.0.2",
   "description": "A simple context-free grammar text generator.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bertez/TreeGrammar.git"
+    "url": "git+ssh://git@github.com/bertez/treegrammar.git"
   },
   "keywords": [
     "grammar",
@@ -21,9 +21,9 @@
   "author": "Berto Yáñez <berto@ber.to>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bertez/TreeGrammar/issues"
+    "url": "https://github.com/bertez/treegrammar/issues"
   },
-  "homepage": "https://github.com/bertez/TreeGrammar#readme",
+  "homepage": "https://github.com/bertez/treegrammar#readme",
   "dependencies": {
     "lodash": "^4.0.0"
   },
