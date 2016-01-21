@@ -4,7 +4,7 @@ Simple context-free grammar text generator.
 
 This module creates random texts based on a set of rules.
 
-```
+```js
 const Tg = require('treegrammar');
 
 const rules = {
