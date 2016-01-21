@@ -14,7 +14,7 @@ const rules = {
     '<adj>': [
         'green', 'big'
     ]
-}
+};
 
 describe('TreeGrammar', () => {
     describe('Instantiating', () => {
