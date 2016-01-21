@@ -1,5 +1,7 @@
 # TreeGrammar
 
+[![Build Status](https://travis-ci.org/bertez/treegrammar.svg?branch=master)](https://travis-ci.org/bertez/treegrammar) [![npm version](https://badge.fury.io/js/treegrammar.svg)](https://badge.fury.io/js/treegrammar)
+
 Simple context-free grammar text generator.
 
 This module creates random texts based on a set of rules.
