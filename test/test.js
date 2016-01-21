@@ -43,6 +43,7 @@ describe('TreeGrammar', () => {
             const g = new TreeGrammar(__dirname + '/test-rules.json');
 
             expect(g.grammar.size).to.equal(5);
+            expect(g.grammar.get('<verb>')).to.be.instanceof(Array);
         });
 
         it('should should throw an error if the file does not exists', () => {
@@ -66,9 +67,23 @@ describe('TreeGrammar', () => {
             expect(generated.indexOf(g.generate())).to.be.at.least(0);
             expect(generated.indexOf(g.generate())).to.be.at.least(0);
         });
+
+        it('should start in a different rule than <start>', () => {
+
+        });
     });
 
     describe('API', () => {
+        it('should add rules', () => {
 
+        });
+
+        it('should overwrite rules', () => {
+
+        });
+
+        it('should delete rules', () => {
+
+        });
     });
 });
