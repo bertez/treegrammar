@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/betez/TreeGrammarc.git"
+    "url": "git+ssh://git@github.com/bertez/TreeGrammar.git"
   },
   "keywords": [
     "grammar",
@@ -21,9 +21,9 @@
   "author": "Berto Yáñez <berto@ber.to>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/betez/TreeGrammarc/issues"
+    "url": "https://github.com/bertez/TreeGrammar/issues"
   },
-  "homepage": "https://github.com/betez/TreeGrammarc#readme",
+  "homepage": "https://github.com/bertez/TreeGrammar#readme",
   "dependencies": {
     "lodash": "^4.0.0"
   },
