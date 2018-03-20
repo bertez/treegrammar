@@ -1,6 +1,6 @@
 {
   "name": "treegrammar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple context-free grammar text generator.",
   "main": "index.js",
   "scripts": {
